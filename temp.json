@@ -1,0 +1,7 @@
+{
+    "ErrorBU:arithmetic": {
+        "algorithm": "ErrorCorrectingParseBU",
+        "grammar_path": "./testing/arithmetic/arithmetic.txt",
+        "test_cases": "./testing/arithmetic/getCases.py 11 10 501"
+    }
+}

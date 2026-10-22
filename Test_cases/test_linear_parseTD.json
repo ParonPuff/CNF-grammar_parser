@@ -1,0 +1,27 @@
+{
+    "LinearTD:general:no_conversion": {
+        "algorithm": "LinearParseTD",
+        "grammar_path": "./testing/linear_grammar/linear_grammar.txt",
+        "test_cases": "./testing/linear_grammar/getCases.sh 10 10 500"
+    },
+    "LinearTD:left:no_conversion": {
+        "algorithm": "LinearParseTD",
+        "grammar_path": "./testing/left_linear/left_linear.txt",
+        "test_cases": "./testing/left_linear/getCases.sh 10 10 500"
+    },
+    "LinearTD:right:no_conversion": {
+        "algorithm": "LinearParseTD",
+        "grammar_path": "./testing/right_linear/right_linear.txt",
+        "test_cases": "./testing/right_linear/getCases.sh 10 10 500"
+    },
+    "LinearTD:palindrome": {
+        "algorithm": "LinearParseTD",
+        "grammar_path": "./testing/palindrome/palindrome.txt",
+        "test_cases": "./testing/palindrome/getCases.py 10 10 500"
+    },
+    "LinearTD:arithmetic": {
+        "algorithm": "LinearParseTD",
+        "grammar_path": "./testing/arithmetic/arithmetic.txt",
+        "test_cases": "./testing/arithmetic/getCases.py 10 10 500"
+    }
+}

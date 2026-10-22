@@ -1,0 +1,27 @@
+{
+    "TD:general:linear_to_cnf": {
+        "algorithm": "ParseTD",
+        "grammar_path": "./testing/linear_grammar/linear_grammar.txt",
+        "test_cases": "./testing/linear_grammar/getCases.sh 10 10 500"
+    },
+    "TD:left:linear_to_cnf": {
+        "algorithm": "ParseTD",
+        "grammar_path": "./testing/left_linear/left_linear.txt",
+        "test_cases": "./testing/left_linear/getCases.sh 10 10 500"
+    },
+    "TD:right:linear_to_cnf": {
+        "algorithm": "ParseTD",
+        "grammar_path": "./testing/right_linear/right_linear.txt",
+        "test_cases": "./testing/right_linear/getCases.sh 10 10 500"
+    },
+    "TD:palindrome": {
+        "algorithm": "ParseTD",
+        "grammar_path": "./testing/palindrome/palindrome.txt",
+        "test_cases": "./testing/palindrome/getCases.py 10 10 500"
+    },
+    "TD:arithmetic": {
+        "algorithm": "ParseTD",
+        "grammar_path": "./testing/arithmetic/arithmetic.txt",
+        "test_cases": "./testing/arithmetic/getCases.py 10 10 500"
+    }
+}
